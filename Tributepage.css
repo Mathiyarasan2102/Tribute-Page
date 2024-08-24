@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #006400; /* Dark Green */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border: 5px solid #006400; /* Dark Green border */
+}
+
+.bio {
+    max-width: 800px;
+    text-align: left;
+}
+
+.bio h2 {
+    color: #006400; /* Dark Green */
+    margin-top: 0;
+}
+
+.bio h3 {
+    color: #333;
+    background: #e0e0e0; /* Light Grey Background */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.bio p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.bio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bio ul li {
+    background: #e9f5e9; /* Light Green */
+    border-left: 5px solid #006400; /* Dark Green */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #006400; /* Dark Green */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
